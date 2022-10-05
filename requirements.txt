@@ -1,0 +1,5 @@
+pelican[Markdown]
+pelican-photos
+pelican-webassets
+pelican-more_categories
+pelican-jinja_templates
