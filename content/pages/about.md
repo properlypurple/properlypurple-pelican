@@ -1,6 +1,7 @@
 Title: About me
 Slug: about
-Summary: Short version for index and feeds
+Summary: Former serial entrepreneur, Free software advocate, allergic to bullshit, pizza eater, singer, runner, low-key LGBTQIA+ activist, and non-binary human.
+
 
 Former serial entrepreneur, Free software advocate, allergic to bullshit, pizza eater, singer, runner, low-key LGBTQIA+ activist, and non-binary human.
 

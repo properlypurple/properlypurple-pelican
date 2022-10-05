@@ -6,8 +6,8 @@ Slug: fries
 Status: published
 Image: {photo}2018/03/fries-grv.jpg
 
-I don't always share food photos, but when I do, they're awesome(both the food, and the photo :P )
 
+I don't always share food photos, but when I do, they're awesome(both the food, and the photo :P )
 
 -   Aperture: f/2
 -   Shutter speed: 1/45s

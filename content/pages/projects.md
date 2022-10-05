@@ -12,7 +12,7 @@ Apps
 * * * * *
 
 
-![]({photo}2020/10/screenshot.jpg)
+![Screenshot of the Braus app]({photo}2020/10/screenshot.jpg)
 
 
 ### Braus
@@ -28,7 +28,7 @@ WordPress themes
 
 * * * * *
 
-[]({photo}2019/02/screenshot-1024x768.jpg)
+[Screenshot of relativity theme]({photo}2019/02/screenshot-relativity.jpg)
 
 ### Relativity
 
@@ -38,7 +38,7 @@ Relativity is a simple, one-column WordPress theme for personal blogs. It is als
 
 * * * * *
 
-[Screenshot of Mixr theme]({photo}2018/01/screenshot-mixr-1024x768.jpg)
+[Screenshot of Mixr theme]({photo}2018/01/screenshot-mixr.jpg)
 
 ### Mixr
 
@@ -100,6 +100,6 @@ Keyboards
 > [Almost complete custom split, handwired outemu blues salvaged from an old keyboard.](https://www.reddit.com/r/mkindia/comments/kx5dz7/almost_complete_custom_split_handwired_outemu/?ref_source=embed&ref=share) from [mkindia](https://www.reddit.com/r/mkindia/)
 
 
-![]({photo}2022/07/Screenshot-from-2022-06-22-09-02-44-1024x646.jpg)
+![screenshot from CAD rendering of keyboard case]({photo}2022/07/Screenshot-from-2022-06-22-09-02-44.jpg)
 
 [3d printable case for the Atreus62 keyboard](https://www.printables.com/model/229968-atreus62-angled-case)

@@ -13,7 +13,7 @@ A big part of my trip to GUADEC was sponsored by the Ubuntu Community Fund. I si
 
 I just came back from Germany after attending the event, and I'm irrevocably humbled for being able to share this experience with everyone. If I have to describe the whole of last week in a nutshell, I would go with something like this.
 
-![6N2Fa]({photo}2016/08/6N2Fa-300x183.gif)
+
 
 ## The Conference
 

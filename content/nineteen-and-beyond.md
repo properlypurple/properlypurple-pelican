@@ -7,7 +7,7 @@ Slug: nineteen-and-beyond
 Status: published
 
 
-![]({photo}2019/01/20181218230304-e728fee5-la.jpg)
+![Photo of blurry landscape seen through a wire fence]({photo}2019/01/20181218230304-e728fee5-la.jpg)
 
 It's that time of the year again. 2018 passed by so quickly, and still felt like the longest year of my life ever(don't you hate it when that happens every year?😒). I have grown a lot this last year, maybe more than all previous years combined. 2019 brings me closer to being the magical age of 30, while also somehow making me look younger(it's a secret). 2018 broke my heart, but gave me enough push to start rebuilding.
 

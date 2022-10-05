@@ -7,7 +7,7 @@ Slug: wordcamp-slides-on-paper
 Status: published
 
 
-![]({photo}2017/10/img_20171026_1050193097633391753632556.jpg)
+![Photo of notes in a small diary]({photo}2017/10/img_20171026_1050193097633391753632556.jpg)
 
 Working on slides for #wcnashik. Trying out actually writing stuff on paper; truly rewarding and surprisingly helpful.
 
