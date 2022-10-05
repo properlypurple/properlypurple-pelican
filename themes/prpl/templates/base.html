@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<head>
+       {% block head %}
+              <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+              <meta charset="utf-8" />
+              <meta name="generator" content="Pelican" />
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              {% assets output="css/style.min.css", "https://unpkg.com/chota@latest", "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap", "style.css" %}
+                     <link rel="stylesheet" href="{{SITEURL}}/{{ASSET_URL}}">
+              {% endassets %}
+
+       {% endblock %}
+</head>
+{% block body %}
+<body>
+       {% block header %}
+       <header class="site-header shadow">
+              <h1 class="site-title">
+                     <a href="{{ SITEURL }}/">
+                            {{ SITENAME }}
+                     </a>
+              </h1>
+              {% include 'nav.html' %}
+              
+       </header>
+       {% endblock header%}
+
+        
+        <main class="shadow container">
+        {% block content %}
+        <h2 class="entry-title">{{ page.title }}</h2>
+        {{ page.content }}
+        {% endblock content %}
+        </main>
+        
+        {% block footer %}
+        <footer class="site-footer" aria-role="footer">
+              {% include 'social-icons.html' %}
+              <p>&copy; {{ DCOPY_DATE }} Kavya Gokul</p>
+              <p><small>Powered by <a href="https://getpelican.com/">Pelican</a> and <a href="https://www.python.org/">Python</a></small></p>
+        </footer>
+        {% endblock footer %}
+</body>
+{% endblock body %}
+
+</html>
+
+

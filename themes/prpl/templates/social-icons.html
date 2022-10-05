@@ -1,0 +1,7 @@
+<nav class="social-icons">
+<ul>
+    {% for title, link in SOCIAL %}
+        <li><a href="{{ link }}">{% include 'svg.html' with context%}</a></li>
+    {% endfor %}
+</ul>
+</nav>

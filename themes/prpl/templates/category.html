@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h2 class="entry-title">{{ category }}</h2>
+    <div class="row">
+    {% for article in articles_page.object_list %}
+        {% if category == 'Blog' %}
+            <article class="hentry category-{{ category|lower }} col-12">
+                <h2 class="entry-title">
+                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+                </h2>
+                <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+            </article>
+        {% elif category == 'Photos' %}
+            <article class="hentry category-{{ category|lower }} col-4">
+                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                <h2>{{ article.title }}</h2>
+                {% if article.photo_image %}
+                    <img src="{{ SITEURL }}/{{ article.photo_image[2] }}" />
+                {% endif %}
+                </a>
+            </article>
+        {% endif %}
+    {% endfor %}
+    </div>
+{% endblock content %}

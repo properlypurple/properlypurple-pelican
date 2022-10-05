@@ -1,0 +1,46 @@
+{% extends "page.html" %}
+
+
+{% block body %}
+<body class="homepage">
+    <main role="main" class="home-main shadow">
+        {% block header %}
+        <div class="row">
+            <div class="col"> 
+            <h1 class="site-title">
+                <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
+            </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"> 
+            {% include 'nav.html' %}
+            </div>
+
+            {% include 'social-icons.html' %}
+        </div>
+
+        {% endblock header%}
+        <hr />
+
+        {% block content %}
+        <div class="row">
+            <div class="col"> 
+            {{ page.content }}
+            </div>
+        </div>
+        {% endblock content %}
+        
+        <hr />
+
+        {% block footer %}
+        <div class="row">
+            <div class="col"> 
+            <p>&copy; {{ DCOPY_DATE }} Kavya Gokul</p>
+            </div>
+        </div>
+        {% endblock footer %}
+
+    </main>
+</body>
+{% endblock body %}

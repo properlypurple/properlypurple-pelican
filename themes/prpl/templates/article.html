@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h2 class="entry-title">{{ article.title }}</h2>
+    <footer class="post-info">
+        <time class="published" datetime="{{ article.date.isoformat() }}">
+          {{ article.locale_date }}
+        </time>
+        <div class="category">
+            <span class="highlight">Categories:</span> 
+                {% for category in article.categories %}
+                    {% for cat in category.ancestors %}
+                        <a href="{{ SITEURL }}/{{ cat.url }}">{{ cat.shortname }}</a>
+                        {{ '/' if not loop.last }}
+                    {% endfor %}
+                    {{ ', ' if not loop.last }}
+                {% endfor %}
+        </div>
+        {% if article.tags %}
+        <div class="tags">
+            Tags:
+            {% for tag in article.tags %}
+                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </footer><!-- /.post-info -->
+    {% if article.photo_image %}
+        <div class="entry-image">
+            <img src="{{ SITEURL }}/{{ article.photo_image[1] }}" />
+        </div>
+        {% endif %}
+    {{ article.content }}
+{% endblock content %}
