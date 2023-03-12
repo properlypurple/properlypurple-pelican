@@ -95,7 +95,7 @@ Keyboards
 
 * * * * *
 
-![]({photo}2022/07/6ocvruxmrab61.webp)
+![]({photo}2022/07/6ocvruxmrab61.jpg)
 
 > [Almost complete custom split, handwired outemu blues salvaged from an old keyboard.](https://www.reddit.com/r/mkindia/comments/kx5dz7/almost_complete_custom_split_handwired_outemu/?ref_source=embed&ref=share) from [mkindia](https://www.reddit.com/r/mkindia/)
 
