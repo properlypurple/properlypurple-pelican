@@ -32,3 +32,29 @@ Get in touch
 ------------
 
 You can fill in the form below to get in touch with me. For support with any of my themes, please use the appropriate theme's forum on WordPress.org, or the Github issue tracker for the appropriate theme.
+
+<form
+  name="contact"
+  method="POST"
+  netlify-honeypot="bot-field"
+  data-netlify="true"
+>
+  <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="bot-field" />
+    </label>
+  </p>
+  <p>
+    <label>
+      Email: <input type="text" name="email" />
+    </label>
+  </p>
+  <p>
+    <label>
+      Message: <textarea name="message"></textarea>
+    </label>
+  </p>
+  <p>
+    <button type="submit" class="button">Send</button>
+  </p>
+</form>
