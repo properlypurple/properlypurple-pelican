@@ -190,5 +190,11 @@
     padding: 0;
   }
   .social-icons a {
-    padding: 10px;
+    
+  }
+  .social-icons li {
+    padding: 0 6px;
+  }
+  .social-icons svg {
+    fill: var(--color-primary);
   }
