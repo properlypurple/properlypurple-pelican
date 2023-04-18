@@ -19,7 +19,7 @@ Apps
 
 Braus is a small application for GNU/Linux desktops, that can be set as your default browser, and then it allows you to pick from your default browsers to open your link.  
 
-[View details and download](https://braus.properlypurple.com){.button}
+[View details and download](https://braus.properlypurple.com){.button .outline}
 
 
 
@@ -34,7 +34,7 @@ WordPress themes
 
 Relativity is a simple, one-column WordPress theme for personal blogs. It is also suitable for use a starting point for your customizations. Relativity supports custom headers, custom background, and various post formats.
 
-[View details and download](/wordpress-themes/relativity/){.button}
+[View details and download](/wordpress-themes/relativity/){.button .outline}
 
 * * * * *
 
@@ -44,7 +44,7 @@ Relativity is a simple, one-column WordPress theme for personal blogs. It is als
 
 Mixr is a child theme for Stargazer with a bold colour scheme and an all-new layout.
 
-[View details and download](/wordpress-themes/mixr/){.button}
+[View details and download](/wordpress-themes/mixr/){.button .outline}
 
 * * * * *
 
@@ -54,7 +54,7 @@ Mixr is a child theme for Stargazer with a bold colour scheme and an all-new lay
 
 Polymer is a child theme for Stargazer by Justin Tadlock. It is inspired by the Material design color palette by Google.
 
-[View details and download](/wordpress-themes/polymer/){.button}
+[View details and download](/wordpress-themes/polymer/){.button .outline}
 
 * * * * *
 
@@ -64,7 +64,7 @@ Polymer is a child theme for Stargazer by Justin Tadlock. It is inspired by the 
 
 Center is a simple, one-column, blog child theme for Genesis. It provides a clean layout for a personal blog or website.
 
-[View details and download](/wordpress-themes/center/){.button}
+[View details and download](/wordpress-themes/center/){.button .outline}
 
 * * * * *
 
@@ -74,7 +74,7 @@ Center is a simple, one-column, blog child theme for Genesis. It provides a clea
 
 Anahita is a free child theme for Genesis framework by Studiopress. It features a soft, pastel colour scheme.
 
-[View details and download](h/wordpress-themes/anahita/){.button}
+[View details and download](h/wordpress-themes/anahita/){.button .outline}
 
 * * * * *
 

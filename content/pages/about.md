@@ -46,6 +46,11 @@ You can fill in the form below to get in touch with me. For support with any of 
   </p>
   <p>
     <label>
+      Name: <input type="text" name="name" />
+    </label>
+  </p>
+  <p>
+    <label>
       Email: <input type="text" name="email" />
     </label>
   </p>

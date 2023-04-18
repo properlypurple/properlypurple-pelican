@@ -80,6 +80,7 @@
     box-sizing: border-box;
     box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;
     padding: 80px;
+    margin: 0 auto;
   }
 
   .site-header {
@@ -124,7 +125,7 @@
 
 
   .container {
-      margin: 80px auto;
+      margin: 40px auto;
   }
 
   .page > section {
@@ -218,4 +219,12 @@
   }
   .social-icons svg {
     fill: var(--color-primary);
+  }
+
+  .button.outline {
+    border:2px solid var(--color-primary);
+    box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;
+  }
+  .button {
+    border-radius: 9999px;
   }
