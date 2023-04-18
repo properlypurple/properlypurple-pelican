@@ -1,8 +1,8 @@
 /* main style.css */
 :root {
-    --bg-color: #554994;
-    --bg-secondary-color: #554994;
-    --color-primary: #ffccb3;
+    --bg-color: rgb(182, 217, 225);
+    --bg-secondary-color: rgb(235, 191, 151);
+    --color-primary: #000000;
     --color-lightGrey: #d2d6dd;
     --color-grey: #747681;
     --color-darkGrey: #3f4144;
@@ -26,6 +26,18 @@
 
   body{
     padding: 20px;
+    background: radial-gradient(circle at calc(-50% + 50%) calc(-50% + 50%), 
+                                rgb(182, 217, 225) 0%, 
+                                rgba(182, 217, 225, 0) 60%), 
+                                  radial-gradient(circle at calc(50% + 50%) calc(-50% + 50%), 
+                                    rgb(172, 193, 200) 0%, 
+                                    rgba(172, 193, 200, 0) 60%), 
+                                    radial-gradient(circle at calc(50% + 50%) calc(50% + 50%), 
+                                        rgb(235, 191, 151) 0%, rgba(235, 191, 151, 0) 60%), 
+                                    radial-gradient(circle at calc(-50% + 50%) calc(50% + 50%), 
+                                      rgb(252, 240, 217) 0%, 
+                                      rgba(252, 240, 217, 0) 60%);
+    background-attachment: fixed;                                      
   }
 
   body.homepage {
@@ -62,10 +74,12 @@
   }
 
   .shadow {
-    box-shadow: var(--color-primary) 0px 0px 0px 2px inset, 
-                var(--bg-color) 5px 5px 0px -1px,
-                var(--color-primary) 5px 5px 0px 1px;
-    padding: 30px;
+    background: #fefefe;
+    border: 2px solid;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;
+    padding: 80px;
   }
 
   .site-header {
@@ -118,11 +132,18 @@
   }
 
   .hentry.category-blog {
-    border-bottom: 1px dotted var(--color-primary)
+    border-bottom: 1px dotted var(--color-primary);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .hentry  h2 {
-    margin-bottom: 0;
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: -0.2px;
+    font-weight: normal;
   }
 
   .hentry.category-photos h2 {
@@ -130,8 +151,8 @@
   }
 
   .hentry time {
-    display: block;
-    margin-bottom: calc( var(--grid-gutter) / 2 );
+    
+    margin-bottom: 0;
   }
 
   .post-info {
