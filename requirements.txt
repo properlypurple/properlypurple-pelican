@@ -3,3 +3,6 @@ pelican-photos
 pelican-webassets
 pelican-more_categories
 pelican-jinja_filters
+pelican-series
+pelican-seo
+beautifulsoup4
