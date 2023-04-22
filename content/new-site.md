@@ -5,7 +5,7 @@ Category: Blog, Website
 Tags: pelican, python, programming 
 Slug: new-site
 Status: published
-Series: new-site-design
+Series: New site design
 
 Long time no see. 😬
 
