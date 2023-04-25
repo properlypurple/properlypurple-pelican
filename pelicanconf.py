@@ -2,7 +2,7 @@ from datetime import date
 
 AUTHOR = 'Kavya Gokul'
 SITENAME = 'Kavya Gokul'
-SITEURL = ''
+SITEURL = 'https://properlypurple.com'
 
 DCOPY_DATE = date.today().year
 
@@ -69,6 +69,7 @@ PLUGINS = [
     "more_categories",
     'photos',
     'series',
+    'seo',
 ]
 
 
