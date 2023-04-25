@@ -6,3 +6,5 @@ pelican-jinja_filters
 pelican-series
 pelican-seo
 beautifulsoup4
+pelican_precompress
+zopfli
