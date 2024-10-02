@@ -1,7 +1,9 @@
 Title: Kavya Gokul
-Slug: 
+Slug:
 save_as: index.html
 template: frontpage
 
 
-I’m Kavya — Neurodivergent, queer, sapphic, non-binary woman. I make 3d printers, web and WordPress stuff, and cool electronic things.
+_Tech generalist_ with experience in _software development_, UI/UX design, _entrepreneurship_, public speaking, and _technical support_.
+
+I also make _3d printers_, web and WordPress stuff, and _cool electronic things_.
