@@ -1,54 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
-<head>
-       {% block head %}
-              <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-              <meta charset="utf-8" />
-              <meta name="generator" content="Pelican" />
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              {% assets output="css/style.min.css", "https://unpkg.com/chota@latest", "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap", "style.css" %}
-                     <link rel="stylesheet" href="{{SITEURL}}/{{ASSET_URL}}">
-              {% endassets %}
-              <link rel="apple-touch-icon" sizes="180x180" href="{{SITEURL}}/theme/apple-touch-icon.png">
-              <link rel="icon" type="image/png" sizes="32x32" href="{{SITEURL}}/theme/favicon-32x32.png">
-              <link rel="icon" type="image/png" sizes="16x16" href="{{SITEURL}}/theme/favicon-16x16.png">
-       {% endblock %}
-</head>
-{% block body %}
-<body>
-       {% block header %}
-       <header class="site-header shadow container">
-              <h1 class="site-title">
-                     <a href="{{ SITEURL }}/">
-                            {{ SITENAME }}
-                     </a>
-              </h1>
-              {% include 'nav.html' %}
-              
-       </header>
-       {% endblock header%}
+    <head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {% assets output="css/style.min.css", "https://unpkg.com/chota@latest",
+        "https://fonts.googleapis.com/css2?family=Sriracha&display=swap",
+        "style.css" %}
+        <link rel="stylesheet" href="{{SITEURL}}/{{ASSET_URL}}" />
+        {% endassets %}
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="{{SITEURL}}/theme/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="{{SITEURL}}/theme/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="{{SITEURL}}/theme/favicon-16x16.png"
+        />
+        {% endblock %}
+    </head>
+    {% block body %}
+    <body>
+        {% block header %}
+        <header class="site-header shadow container">
+            <h1 class="site-title">
+                <a href="{{ SITEURL }}/"> {{ SITENAME }} </a>
+            </h1>
+            {% include 'nav.html' %}
+        </header>
+        {% endblock header%}
 
-        
         <main class="shadow container">
-        {% block content %}
-        <h2 class="entry-title">{{ page.title }}</h2>
-        {{ page.content }}
-        {% endblock content %}
+            {% block content %}
+            <h2 class="entry-title">{{ page.title }}</h2>
+            {{ page.content }} {% endblock content %}
         </main>
-        
+
         {% block footer %}
         <footer class="site-footer" aria-role="footer">
-              {% include 'social-icons.html' %}
-              <p>&copy; {{ DCOPY_DATE }} Kavya Gokul</p>
-              <p><small>Powered by <a href="https://getpelican.com/">Pelican</a> and <a href="https://www.python.org/">Python</a></small></p>
+            {% include 'social-icons.html' %}
+            <p>&copy; {{ DCOPY_DATE }} Kavya Gokul</p>
+            <p>
+                <small
+                    >Powered by
+                    <a href="https://getpelican.com/">Pelican</a> and
+                    <a href="https://www.python.org/">Python</a></small
+                >
+            </p>
         </footer>
         {% endblock footer %}
         <div class="floating-bar">
-              <p>This site is undergoing a redesign, and some things may not work properly.</p>
+            <p>
+                This site is undergoing a redesign, and some things may not work
+                properly.
+            </p>
         </div>
-</body>
-{% endblock body %}
-
+    </body>
+    {% endblock body %}
 </html>
-
-
