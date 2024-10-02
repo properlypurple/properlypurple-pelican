@@ -21,6 +21,8 @@ Braus is a small application for GNU/Linux desktops, that can be set as your def
 
 [View details and download](https://braus.properlypurple.com){.button .outline}
 
+* * * * *
+* * * * *
 
 
 WordPress themes
@@ -28,7 +30,7 @@ WordPress themes
 
 * * * * *
 
-[Screenshot of relativity theme]({photo}2019/02/screenshot-relativity.jpg)
+![Screenshot of relativity theme]({photo}2019/02/screenshot-relativity.jpg)
 
 ### Relativity
 
@@ -38,7 +40,7 @@ Relativity is a simple, one-column WordPress theme for personal blogs. It is als
 
 * * * * *
 
-[Screenshot of Mixr theme]({photo}2018/01/screenshot-mixr.jpg)
+![Screenshot of Mixr theme]({photo}2018/01/screenshot-mixr.jpg)
 
 ### Mixr
 
