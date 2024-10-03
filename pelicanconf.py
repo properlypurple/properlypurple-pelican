@@ -10,7 +10,7 @@ PATH = 'content'
 
 TIMEZONE = 'Asia/Kolkata'
 
-DEFAULT_LANG = 'en_IN'
+DEFAULT_LANG = 'en-IN'
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
 
 # Feed generation is usually not desired when developing
