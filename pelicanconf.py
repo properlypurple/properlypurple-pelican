@@ -42,11 +42,8 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 
 # Social icons(please keep the title lowercase, for now)
 SOCIAL = (('github', 'https://github.com/properlypurple'),
-          ('instagram', 'https://instagram.com/properlypurple'),
           ('mastodon', 'https://tech.lgbt/@properlypurple'),
-          ('linkedin', 'https://www.linkedin.com/in/properlypurple/'),
-          ('youtube', 'https://www.youtube.com/channel/UCk1NmoSVZN_vdVPYIlXkBKg'),
-          ('twitch', 'https://www.twitch.tv/properlypurple'))
+          ('linkedin', 'https://www.linkedin.com/in/properlypurple/'))
 
 DEFAULT_PAGINATION = 100
 

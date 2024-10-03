@@ -79,7 +79,7 @@
     /*box-shadow: 0 1px currentColor, 0 2px currentColor, 0 3px currentColor, 0 4px currentColor, 0 5px currentColor, 0 6px currentColor;*/
     /*box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;*/
     /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
-    padding: 40px 80px;
+    padding: 44px 80px 24px;
     margin: 0 auto;
   }
 
