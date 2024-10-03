@@ -1,7 +1,11 @@
 <nav class="social-icons">
-<ul>
-    {% for title, link in SOCIAL %}
-        <li><a href="{{ link }}">{% include 'svg.html' with context%}</a></li>
-    {% endfor %}
-</ul>
+    <ul>
+        {% for title, link in SOCIAL %}
+        <li>
+            <a href="{{ link }}" aria-label="Link to {{ title }} account"
+                >{% include 'svg.html' with context%}</a
+            >
+        </li>
+        {% endfor %}
+    </ul>
 </nav>
