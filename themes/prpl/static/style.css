@@ -58,7 +58,10 @@
   }
 
   hr {
-    background: var(--color-primary);
+    background: transparent;
+    border: 1px dashed var(--font-color);
+    border-width: 1px 0 0 0;
+    opacity: 60%;
   }
 
   a {
@@ -142,12 +145,16 @@
       margin: 40px auto;
   }
 
+  .homepage .page-content {
+      margin-top: 10px;
+  }
+
   .page > section {
     margin-bottom: calc( 2 * var(--grid-gutter) );
   }
 
   .hentry.category-blog {
-    border-bottom: 1px dotted var(--color-primary);
+    border-bottom: 1px dotted var(--font-color);
     display: flex;
     width: 100%;
     align-items: center;
@@ -156,9 +163,13 @@
 
   .hentry  h2 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.4rem;
     letter-spacing: -0.2px;
     font-weight: normal;
+  }
+
+  .hentry h2 a {
+    text-decoration: none;
   }
 
   .hentry.category-photos h2 {
@@ -174,39 +185,6 @@
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 1px dotted var(--color-primary);
-  }
-
-  .homepage-photos section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .homepage-photos article {
-    flex: 0 30% auto;
-    width: 33%;
-    display: inline-flex;
-  }
-
-  .homepage-photos article a {
-    line-height: 0;
-    display: inline-block;
-    filter: grayscale(0.8);
-    transition: all 0.5s fade;
-  }
-
-  .homepage-photos article a:hover,
-  .homepage-photos article a:focus {
-    filter:grayscale(0);
-    opacity: 1;
-    transition: all 0.5s fade;
-  }
-
-  .homepage-photos article img {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-
   }
 
 
