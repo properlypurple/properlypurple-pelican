@@ -30,8 +30,6 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 
 MENUITEMS = (('About', '/about'),
-             ('Blog', '/category/blog'),
-             ('Photos', '/category/photos'),
              ('Projects', '/projects'),)
 
 # Blogroll
