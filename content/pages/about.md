@@ -5,7 +5,7 @@ Summary: Former serial entrepreneur, Free software advocate, allergic to bullshi
 
 Queer, neurodivergent, tech generalist, with experience in _software development_, UI/UX design, _entrepreneurship_, public speaking, and _technical support_
 
-You can find me on [Fediverse](https://tech.lgbt/@properlypurple), [Linkedin](https://www.linkedin.com/in/properlypurple/), [Soundcloud](https://soundcloud.com/properlypurple), or [Github](http://github.com/properlypurple/)
+
 
 Bucket List
 -----------
